@@ -84,9 +84,9 @@ public final class HelpThreadAutoArchiver implements Routine {
         String linkHowToAsk = "https://stackoverflow.com/help/how-to-ask";
 
         MessageEmbed embed = new EmbedBuilder()
+            .setTitle("### __Question closed due to inactivity__")
             .setDescription(
                     """
-                            ### __Your question has been closed due to inactivity.__
                             If it was not resolved yet, feel free to just post a message below
                             to reopen it, or create a new thread.
 
