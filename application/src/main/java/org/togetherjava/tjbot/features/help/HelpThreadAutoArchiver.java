@@ -86,28 +86,13 @@ public final class HelpThreadAutoArchiver implements Routine {
         MessageEmbed embed = new EmbedBuilder()
             .setDescription(
                     """
-                            Your question has been closed due to inactivity.
-
+                            ### __Your question has been closed due to inactivity.__
                             If it was not resolved yet, feel free to just post a message below
                             to reopen it, or create a new thread.
 
-                            Note that usually the reason for nobody calling back is that your
-                            question may have been not well asked and hence no one felt confident
-                            enough answering.
-
-                            When you reopen the thread, try to use your time to **improve the quality**
-                            of the question by elaborating, providing **details**, context, all relevant code
-                            snippets, any **errors** you are getting, concrete **examples** and perhaps also some
-                            screenshots. Share your **attempt**, explain the **expected results** and compare
-                            them to the current results.
-
-                            Also try to make the information **easily accessible** by sharing code
-                            or assignment descriptions directly on Discord, not behind a link or
-                            PDF-file; provide some guidance for long code snippets and ensure
-                            the **code is well formatted** and has syntax highlighting. Kindly read through
-                            %s for more.
-
-                            With enough info, someone knows the answer for sure 👍"""
+                            If no one is responding to your question try **improving the question quality**.
+                            You can do this by providing details, context, all *relevant* code, any
+                            errors, and examples of your issue/question."""
                         .formatted(linkHowToAsk))
             .setColor(HelpSystemHelper.AMBIENT_COLOR)
             .build();
